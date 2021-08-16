@@ -6,7 +6,11 @@
 
 
 # Step1 
-- clone repo 
+  - clone repo to project  
+  - change package name
+    - https://pub.dev/packages/change_app_package_name
+  - add new repo  
+  
 
 # Step2
 
