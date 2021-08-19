@@ -22,25 +22,33 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
+  dio: ^4.0.0
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^5.0.0
+  shimmer: ^2.0.0
+  streaming_shared_preferences: ^2.0.0
+
+dependency_overrides:
+  intl: ^0.17.0
 
 dev_dependencies:
   change_app_package_name: ^1.0.0
   flutter_test:
     sdk: flutter
+#  intl_translation: ^0.17.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter.
 flutter:
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
+  generate: true
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
