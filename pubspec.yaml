@@ -36,10 +36,10 @@ dependency_overrides:
 
 dev_dependencies:
   change_app_package_name: ^1.0.0
+  flutter_launcher_name: ^0.0.1
   flutter_test:
     sdk: flutter
 #  intl_translation: ^0.17.7
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter.
