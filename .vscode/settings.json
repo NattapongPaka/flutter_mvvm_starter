@@ -1,7 +1,17 @@
 {
-    "dart.flutterSdkPath": "/Users/home/flutter",
-    "[dart]": {
-        "editor.defaultFormatter": "Dart-Code.dart-code",
-        "editor.formatOnSave": true
-     },
-}
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+      // Remove .fvm files from search
+      "search.exclude": {
+        "**/.fvm": true
+      },
+      // Remove from file watching
+      "files.watcherExclude": {
+        "**/.fvm": true
+      },
+      "[dart]": {
+          "editor.defaultFormatter": "Dart-Code.dart-code",
+          "editor.formatOnSave": true
+      },
+      "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m",
+      "java.configuration.updateBuildConfiguration": "disabled",
+  }
