@@ -29,6 +29,8 @@ dependencies:
   flutter_hooks: ^0.18.6
   flutter_localizations:
     sdk: flutter
+  flutter_screenutil: ^5.7.0
+  get: ^4.6.5
   get_storage: ^2.1.1
   logger: ^1.3.0
   shimmer: ^2.0.0
@@ -65,17 +67,17 @@ flutter:
   fonts:
     - family: Kanit
       fonts:
-        - asset: assets/fonts/Kanit/Kanit-Bold.ttf
+        - asset: assets/fonts/Kanit-Bold.ttf
           weight: 700
-        - asset: assets/fonts/Kanit/Kanit-SemiBold.ttf
+        - asset: assets/fonts/Kanit-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/Kanit/Kanit-Medium.ttf
+        - asset: assets/fonts/Kanit-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Kanit/Kanit-Regular.ttf
+        - asset: assets/fonts/Kanit-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Kanit/Kanit-Light.ttf
+        - asset: assets/fonts/Kanit-Light.ttf
           weight: 300
-        - asset: assets/fonts/Kanit/Kanit-ExtraLight.ttf
+        - asset: assets/fonts/Kanit-ExtraLight.ttf
           weight: 200
   # fonts:
   #   - family: Schyler
